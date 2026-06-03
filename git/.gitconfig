@@ -1,0 +1,20 @@
+[user]
+	email = bruno.coulet@laplateforme.io
+	name = bruno-coulet
+[pager]
+	branch = false
+[init]
+	defaultBranch = main
+[lfs]
+	concurrenttransfers = 3
+[lfs "customtransfer.xet"]
+	path = git-xet
+	args = transfer
+	concurrent = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[credential]
+	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe
