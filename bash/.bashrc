@@ -181,3 +181,4 @@ EOF
 # fi
 # unset __conda_setup
 export PATH="$HOME/.npm-global/bin:$PATH"
+alias claude="/home/coule/.npm-global/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe"
