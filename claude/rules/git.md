@@ -1,0 +1,1 @@
+- ne commit pas systématiquement, utilise des Conventional Commits
