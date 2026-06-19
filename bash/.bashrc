@@ -73,15 +73,10 @@ fi
 alias ask-ai='gh copilot suggest'
 alias explain-ai='gh copilot explain'
 
-# alias cch='claude --model haiku --dangerously-skip-permissions'
-# alias ccs='claude --model sonnet --dangerously-skip-permissions'
-# alias cco='claude --model opus --dangerously-skip-permissions'
-alias ccs='claude --dangerously-skip-permissions --model sonnet'
-alias cco='claude --dangerously-skip-permissions --model claude-opus-4-6'
-alias cch='claude --dangerously-skip-permissions --model haiku'
-# alias cch='ANTHROPIC_MODEL=claude-haiku-4-5 claude'
-# alias ccs='ANTHROPIC_MODEL=claude-sonnet-4-6 claude'
-# alias cco='ANTHROPIC_MODEL=claude-opus-4-8 claude'
+alias cch='claude --model claude-haiku-4-5 --dangerously-skip-permissions'
+alias ccs='claude --model claude-sonnet-4-6 --dangerously-skip-permissions'
+alias cco='claude --model claude-opus-4-8 --dangerously-skip-permissions'
+
 
 # ------------------------------------------------------------------------------
 # 6. ALIASES GENERAUX & GIT
