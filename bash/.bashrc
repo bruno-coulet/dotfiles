@@ -77,7 +77,6 @@ alias cch='claude --model claude-haiku-4-5 --dangerously-skip-permissions'
 alias ccs='claude --model claude-sonnet-4-6 --dangerously-skip-permissions'
 alias cco='claude --model claude-opus-4-8 --dangerously-skip-permissions'
 
-
 # ------------------------------------------------------------------------------
 # 6. ALIASES GENERAUX & GIT
 # ------------------------------------------------------------------------------
