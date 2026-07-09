@@ -1,6 +1,6 @@
 # ==============================================================================
 # ~/.bashrc — Configuration Bash WSL2 Ubuntu
-# Repo    : ~/wsl_dotfile
+# Repo    : ~/dotfile
 # Auteur  : bruno-coulet
 # ==============================================================================
 
@@ -16,14 +16,11 @@ esac
 # 2. PATH : uv, et VS Code (chemin Windows via /mnt/c)
 # ------------------------------------------------------------------------------
 # uv (installe via : curl -Lsf https://astral.sh/uv/install.sh | sh)
-export PATH="$HOME/.local/bin:$PATH"
+# export PATH="$HOME/.local/bin:$PATH"
 
 # Charge les variables d'environnement de uv si le fichier existe
-[ -f "$HOME/.local/bin/env" ] && . "$HOME/.local/bin/env"
+# [ -f "$HOME/.local/bin/env" ] && . "$HOME/.local/bin/env"
 
-# VS Code depuis Windows
-VSCODE_WIN="/mnt/c/Users/coule/AppData/Local/Programs/Microsoft VS Code/bin"
-[ -d "$VSCODE_WIN" ] && export PATH="$PATH:$VSCODE_WIN"
 
 # ------------------------------------------------------------------------------
 # 3. PROMPT : Starship
@@ -85,11 +82,15 @@ alias explorer='explorer.exe .'
 alias projets='cd ~/Documents/projets'
 
 alias gf='git fetch'
+alias gr='git reset'
+alias gb='git branch'
+alias gsw='git switch'
 alias gs='git status'
 alias ga='git add'
 alias gb='git branch'
 alias gc='git commit -m'
 alias gp='git push'
+alias gpuo='git push -u origin'
 alias gpl='git pull'
 
 # ------------------------------------------------------------------------------
