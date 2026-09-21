@@ -169,6 +169,17 @@ EOF
 
     echo "Projet '$1' pret dans $TARGET_DIR"
     echo "Ouverture dans VS Code..."
+    echo ""
+    echo "==== Il reste a creer le repository distant GitHub ======"
+    echo "Sans README.md, ni .gitignore (ils sont deja crees localement)"
+    echo ""
+    echo "Puis, depuis ce projet, executer :"
+    echo ""
+    echo "git remote add origin git@github.com:bruno-coulet/$1.git"
+    echo "git branch -M main"
+    echo "git push -u origin main"
+    echo ""
+
     check_venv
     code .
 }
