@@ -3,7 +3,9 @@
 Ne sois pa sycophante, challenge mes idées, ne valide pas par défaut
 
 - Stack : Python 3.12 (via uv), Scikit-Learn, Pandas, pytest, Streamlit ou Dash, FastAPI, Docker, etc...
-- Langue : Répondre et commenter le code en français.
+- Langues :
+    - Réponds en français.
+    - code et commentaires en anglais
 - Style : Code propre, pas d"émoji.
 - Environnements :
     - Windows 11 et wsl ubuntu, Terminal Bash
